@@ -12,7 +12,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Switch;
 
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity {
+    /**
+     * The Cl.
+     */
     ConstraintLayout Cl;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
         }
         return true;
     }
+
+    /**
+     * Go.
+     *
+     * @param view the view
+     */
     public void go(View view) {
         Intent si = new Intent(this,MainActivity2.class);
         startActivity(si);

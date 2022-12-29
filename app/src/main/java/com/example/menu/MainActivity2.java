@@ -12,7 +12,13 @@ import android.view.View;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+/**
+ * The type Main activity 2.
+ */
 public class MainActivity2 extends AppCompatActivity {
+    /**
+     * The Cl.
+     */
     ConstraintLayout Cl;
     @SuppressLint("MissingInflatedId")
     @Override
@@ -48,6 +54,11 @@ public class MainActivity2 extends AppCompatActivity {
         return true;
     }
 
+    /**
+     * Go.
+     *
+     * @param view the view
+     */
     public void go(View view) {
         finish();
     }
